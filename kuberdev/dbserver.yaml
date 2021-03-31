@@ -16,7 +16,7 @@ spec:
       containers:
       - image: mysql:8.0.18
         name: mysql
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: .sweetpwd.
